@@ -2,9 +2,6 @@
   "name": "belvo-proxy",
   "version": "1.0.0",
   "scripts": {
-    "start": "bun run index.tsx"
-  },
-  "dependencies": {
-    "hono": "^4.0.0"
+    "start": "node index.js"
   }
 }
