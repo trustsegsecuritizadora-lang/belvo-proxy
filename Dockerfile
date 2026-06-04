@@ -3,5 +3,5 @@ WORKDIR /app
 COPY package.json .
 RUN bun install
 COPY index.tsx .
-EXPOSE 3000
+EXPOSE ${PORT:-3000}
 CMD ["bun", "run", "index.tsx"]
